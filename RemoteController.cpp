@@ -87,7 +87,7 @@ void loop()
   delay(10);
   data.LjoyY = map(analogRead(A3), 0, 1024, 255, 0);
   delay(10);
-  buttonMatrix();
+  readButtons();
   radio.write(&data, sizeof(Data_Package));
 
   CRC = 0;
@@ -128,7 +128,7 @@ void resetData() {
   data.Button13 = false;
   data.Button14 = false;
 }
-void buttonMatrix() {
+void readButtons() {
   keyIn =  analogRead(A7);      //Read in keypad input
   for (int i = 0; i < 7; i++)   //Run through the array of button values
   {

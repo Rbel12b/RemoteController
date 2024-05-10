@@ -1,0 +1,453 @@
+{
+  "uuid": "4c37d81971072750db0fd0fdc7695dec",
+  "path": "Offline/RC transmitter",
+  "name": "RC transmitter",
+  "content": "",
+  "created_at": "2023-10-23 14:14:40",
+  "updated_at": "2023-11-01 13:37:07",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "57e1d2ca10ffeeedb77f821ef93ed9d8",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8fc54ec6dadb4abba9f257dbcb08e919": 3,
+        "1c5b39ac72514ccd8747bf87ab52b20b": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 1,
+        "595f1b159cbb1fc2159315f85f2042a1": 1,
+        "18479f1c4d4749c5a4c4387846c5d657": 15,
+        "d1967012734640e5b2f2cc1ea764740b": 16,
+        "44f89dd65b804651a158c1797a5d0707": 1,
+        "9e65dd1c18ca4f7985cdcd2467d06198": 1,
+        "1666765c7aed43a89d74e51b66ea79e1": 2,
+        "a1a68e8402b9461199345d2cae776c3f": 1,
+        "8c95eef853b1473e9539399823e4b359": 1,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "832b4342997d40b98a843a68b9b40bc8": 2,
+        "3a61275ec9124eb29e8d79ca45043eec": 1,
+        "245526444bbe85b260f4b99a6aa28864": 1,
+        "92c32ceaaac84139add7ebda884f0a47": 1,
+        "dbfa7da092bc44faa13a86aaa683160b": 1,
+        "944ca2f18b8f43e6aa642583d275ffbc": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1u",
+          3,
+          "CAP-D5.0×F2.0",
+          "C1,C2,C3",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_TH_D5.0×F2.0_EU",
+            "Manufacturer Part": "",
+            "puuid": "9ab4ba27487f4e968ec8c676394520e2",
+            "uuid": "8fc54ec6dadb4abba9f257dbcb08e919"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "CAP-TH_L5.0-W2.5-P5.08-D0.7",
+          "C4,C5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C340574",
+            "Manufacturer": "TDK",
+            "Manufacturer Part": "CC45SL3AD220JYANA",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C340574&%26type=1&ref=editor",
+            "spiceSymbolName": "CC45SL3AD220JYANA",
+            "puuid": "e609923febba487d930e816587043b51",
+            "uuid": "1666765c7aed43a89d74e51b66ea79e1"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "RAD-0.1",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_RAD-0.1_US",
+            "Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "dbfa7da092bc44faa13a86aaa683160b"
+          }
+        ],
+        [
+          "1N4007W",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C328592",
+            "Manufacturer": "BLUE ROCKET",
+            "Manufacturer Part": "1N4007W",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "1N4148W",
+          1,
+          "SOD-123FL_L2.6-W1.6-LS3.4-RD",
+          "D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Tak Cheong",
+            "Manufacturer Part": "1N4148W",
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "C129216",
+            "spiceSymbolName": "1N4148W",
+            "puuid": "f00063ebb2894f68ba339d38653df1d5",
+            "uuid": "944ca2f18b8f43e6aa642583d275ffbc"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H1",
+          {
+            "Supplier Part": "C49661",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x2",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x3",
+          1,
+          "HDR-M-2.54_2X3",
+          "J1",
+          {
+            "Supplier Part": "C65114",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_2x3",
+            "puuid": "a5b8fff1a45c42f9aa306bafedcb5748",
+            "uuid": "8c95eef853b1473e9539399823e4b359"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          1,
+          "COMM-TH_MPU6050M",
+          "J3",
+          {
+            "Supplier Part": "C190820",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x8",
+            "puuid": "58bab286573c46f188433918c908de7a",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "K4-6×6_TH",
+          11,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "KEY1,KEY2,KEY3,KEY4,KEY7,KEY8,KEY9,KEY10,KEY11,KEY14,KEY15",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_TH",
+            "puuid": "557c105168d444a992e25584f55bcbb2",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "K4-6×6_TH",
+          4,
+          "KEY-TH_ST-1101V-5",
+          "KEY5,KEY6,KEY12,KEY13",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_TH",
+            "puuid": "283c0a10fc274822af1672c58458b75b",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "",
+            "Supplier Part": "C90751",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NRF24L01",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1"
+          }
+        ],
+        [
+          "220R",
+          14,
+          "R_AXIAL-0.3",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.4_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.3",
+          "R15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.4_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.4",
+          "R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.4_US",
+            "Manufacturer Part": "",
+            "puuid": "5905db98cde4487fbb177070aa85bbe1",
+            "uuid": "d1967012734640e5b2f2cc1ea764740b"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.3",
+          "R17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_US",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "a1a68e8402b9461199345d2cae776c3f"
+          }
+        ],
+        [
+          "SK-12D02-VG5",
+          1,
+          "SW-TH_SK-12D02VG3",
+          "SW1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136722",
+            "Manufacturer": "Rectangular Connectors - Contacts",
+            "Manufacturer Part": "SK-12D02-VG5",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "SK-12D02-VG5",
+            "puuid": "85479227c6fd485eba9b7c55937c67d9",
+            "uuid": "1c5b39ac72514ccd8747bf87ab52b20b"
+          }
+        ],
+        [
+          "ATMEGA328P",
+          1,
+          "TQFP-32_L7.0-W7.0-P0.80-LS9.0-TL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900009806",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ATmega328P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900009806&%26type=1&ref=editor",
+            "spiceSymbolName": "ATMEGA328P",
+            "puuid": "abb83beca66f48258c4d5f8de873969a",
+            "uuid": "44f89dd65b804651a158c1797a5d0707"
+          }
+        ],
+        [
+          "JOYSTICKPTH",
+          2,
+          "JOYSTICK",
+          "U3,U4",
+          {
+            "description": "Thumb Joystick",
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "JOYSTICKPTH",
+            "Manufacturer Part": "",
+            "puuid": "58f3711fbb854297a091d937ffbe3f52",
+            "uuid": "832b4342997d40b98a843a68b9b40bc8"
+          }
+        ],
+        [
+          "AMS1117-5.0",
+          1,
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U5",
+          {
+            "sourceId": "HltLFyQwq",
+            "timeStamp": "1466676067",
+            "Supplier": "LCSC",
+            "Manufacturer": "AMS",
+            "Manufacturer Part": "AMS1117-5.0",
+            "Supplier Part": "C6187",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C6187&%26type=1&ref=editor",
+            "spiceSymbolName": "AMS1117-5.0",
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "245526444bbe85b260f4b99a6aa28864"
+          }
+        ],
+        [
+          "AMS1117-3.3S",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BL",
+          "U7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2842296",
+            "Manufacturer": "KEXIN(科信)",
+            "Manufacturer Part": "AMS1117-3.3S",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2842296&%26type=1&ref=editor",
+            "spiceSymbolName": "AMS1117-3.3S",
+            "puuid": "a2be1b47623c4f1cbaa7a044db089aa2",
+            "uuid": "3a61275ec9124eb29e8d79ca45043eec"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "HC-49US_L11.5-W4.5-P4.88",
+          "X1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C240920",
+            "Manufacturer": "LIMING(利明)",
+            "Manufacturer Part": "49S-16.000-20-20-20/A",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C240920&%26type=1&ref=editor",
+            "spiceSymbolName": "49S-16.000-20-20-20/A",
+            "puuid": "c3f5f0ccc4444176a5a6d81e2c6071f5",
+            "uuid": "9e65dd1c18ca4f7985cdcd2467d06198"
+          }
+        ]
+      ],
+      "updateTime": 1698763602,
+      "createTime": 1698063281,
+      "histories": [],
+      "created_at": "2023-10-23 14:14:41",
+      "updated_at": "2023-10-31 15:46:42"
+    },
+    {
+      "uuid": "408d171dd054503f73f801ae3099b7b8",
+      "puuid": "4c37d81971072750db0fd0fdc7695dec",
+      "title": "PCB_RC transmitter",
+      "filename": "PCB_RC transmitter.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e609923febba487d930e816587043b51": 2,
+        "3eb1249f3ebb4284ae221b0379016582": 16,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 1,
+        "9ab4ba27487f4e968ec8c676394520e2": 3,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "557c105168d444a992e25584f55bcbb2": 11,
+        "b4cb6e6f44a64822b1a75e418bd409f5": 1,
+        "5905db98cde4487fbb177070aa85bbe1": 1,
+        "85479227c6fd485eba9b7c55937c67d9": 1,
+        "283c0a10fc274822af1672c58458b75b": 4,
+        "c3f5f0ccc4444176a5a6d81e2c6071f5": 1,
+        "a5b8fff1a45c42f9aa306bafedcb5748": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "58f3711fbb854297a091d937ffbe3f52": 2,
+        "58bab286573c46f188433918c908de7a": 1,
+        "f00063ebb2894f68ba339d38653df1d5": 1,
+        "abb83beca66f48258c4d5f8de873969a": 1,
+        "60a676d313ae48718a81c380b73dfe4f": 1,
+        "4ca399a3887148eeab92cd3a98a855b3": 1,
+        "a2be1b47623c4f1cbaa7a044db089aa2": 1
+      },
+      "BOM": [],
+      "updateTime": 1698842227,
+      "createTime": 1698066763,
+      "histories": [],
+      "created_at": "2023-10-23 15:12:43",
+      "updated_at": "2023-11-01 13:37:07"
+    }
+  ],
+  "sort": [],
+  "title": "RC transmitter",
+  "foldername": "RC transmitter",
+  "schfilename": "RC transmitter.json",
+  "schfilemtime": 1698763602123
+}
